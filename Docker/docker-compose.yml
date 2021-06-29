@@ -2,7 +2,7 @@ version: '3'
 services:
   bind:
     build: .
-    image: dns_13
+    image: woodshadow314/dns_13
     container_name: dns_13
     ports:
       - 53:53/tcp
