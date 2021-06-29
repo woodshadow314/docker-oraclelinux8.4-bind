@@ -1,1 +1,1 @@
-DNS сервер на основе образа oraclelinux:8.4
+DNS сервер на основе docker образа oraclelinux:8.4
