@@ -1,5 +1,5 @@
 FROM oraclelinux:8.4
-RUN yum update
+RUN yum update -y
 
 EXPOSE 53
 
