@@ -1,5 +1,6 @@
 FROM oraclelinux:8.4
-RUN yum update -y
+RUN yum update -y && \
+    yum install -y bind bind-utils bind-libs bind-chroot
 
 EXPOSE 53
 
