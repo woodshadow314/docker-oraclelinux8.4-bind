@@ -9,6 +9,4 @@ EXPOSE 53
 
 #CMD ping 127.0.0.1
 
-#CMD ["bash"]
-
 CMD ["/usr/sbin/named", "-c", "/etc/named.conf", "-g", "-u", "named"]
