@@ -1,6 +1,6 @@
 FROM oraclelinux:8.4
 RUN yum update -y && \
-    yum install -y bind bind-utils bind-libs bind-chroot &&
+    yum install -y bind bind-utils bind-libs bind-chroot
 RUN    mkdir -p /var/named/masters
 RUN    chmod u=rwx,g=rx /var/named/masters
 RUN    chown named:named /var/named/masters
