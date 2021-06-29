@@ -3,6 +3,6 @@ RUN yum update -y
 
 EXPOSE 53
 
-CMD ["bash"]
+#CMD ["bash"]
 
 #CMD ["named", "-c", "/etc/bind/named.conf", "-g", "-u", "named"]
